@@ -1,0 +1,29 @@
+.header {
+    background: linear-gradient(135deg, #007bff, #6610f2);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.header nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.header a:hover {
+    color: #ffdd57;
+}
